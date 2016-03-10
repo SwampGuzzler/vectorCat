@@ -30,7 +30,7 @@
 
       //The URL referenced in the constructor may point to a style url JSON (as in this sample)
       //or directly to a vector tile service
-      VectorTileLayer.ACCESS_TOKEN = process.env['MAPBOX_TOKEN'];
+      VectorTileLayer.ACCESS_TOKEN = 'pk.eyJ1IjoibHVjYXNjb3RuZXIiLCJhIjoiSFFmUDZrayJ9.C6Fipocs9wmD7J6xOtrzaA'; //process.env['MAPBOX_TOKEN'];
       var vectorTileLayer = new VectorTileLayer("mapbox://styles/lucascotner/cijm2b4qy00eh8wkph0om4fjo");
       // var vtlayer = new VectorTileLayer("https://www.arcgis.com/sharing/rest/content/items/f96366254a564adda1dc468b447ed956/resources/styles/root.json");
       map.addLayer(vectorTileLayer);
